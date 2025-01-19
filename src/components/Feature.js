@@ -9,13 +9,10 @@ function Feature() {
         return (
           <div
             key={data.id}
-            className="lg:flex even:flex-row-reverse lg:mb-[6rem] md:mb-[5rem]"
+            className="md:flex even:flex-row-reverse lg:mb-[6rem] md:mb-[5rem]"
           >
             <div>
-              <img
-                src={data.image}
-                className="w-[20rem] md:w-[25rem] lg:w-[50rem]"
-              />
+              <img src={data.image} className="w-[20rem] md:w-[50rem]" />
             </div>
 
             <div className="mt-5 mb-12 text-center md:text-start md:px-10 md:my-auto">
