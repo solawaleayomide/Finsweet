@@ -87,9 +87,9 @@ function Footer() {
           <input
             type="text"
             placeholder="Enter your email"
-            className="mb-4 px-5 py-2 rounded-md relative md:w-[25rem] md:mb-0 md:pr-[6rem] md:py-[1rem]"
+            className="w-full mb-4 px-5 py-2 rounded-md relative md:w-[25rem] md:mb-0 md:pr-[6rem] md:py-[1rem]"
           />
-          <button className="absolute top-[50%] right-0 transform -translate-y-[50%] bg-[#F24C27] px-5 py-2 font-bold rounded-md text-[#fff] md:translate-x-[-10%]">
+          <button className="w-full md:w-fit md:absolute md:top-[50%] md:right-0 md:transform md:-translate-y-[50%] bg-[#F24C27] px-5 py-2 font-bold rounded-md text-[#fff] md:translate-x-[-10%]">
             Subscribe
           </button>
         </div>
