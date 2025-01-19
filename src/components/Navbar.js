@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 w-full py-[20px] px-[10%] md:px-[7%] flex items-center justify-between bg-white shadow-md">
-      <a href="/" className="text-[2rem] font-bold md:text-[1.5rem]">
+      <a href="/" className="text-[1.5rem] font-bold md:text-[1.5rem]">
         Finsweet
       </a>
 
