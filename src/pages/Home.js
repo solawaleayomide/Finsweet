@@ -5,6 +5,7 @@ import Why from "../sections/Why";
 import Image from "../sections/image";
 import Features from "../sections/Features";
 import Testimonial from "../sections/Testimonial";
+import Faqs from "../sections/Faqs";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Image />
       <Features />
       <Testimonial />
+      <Faqs />
     </div>
   );
 }
