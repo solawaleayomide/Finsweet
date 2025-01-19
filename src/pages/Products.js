@@ -1,10 +1,17 @@
 import React from "react";
-import Hero from "../sections/Hero";
+import Navbar from "../components/Navbar";
+import HeroText from "../components/HeroText";
+import heroImg from "../assets/Hero Image (1).png";
 
 function Products() {
   return (
     <div>
-      <Hero />
+      <Navbar />
+      <HeroText
+        heading="Help your team to focus on priority tasks"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc vitae neque"
+        heroImg={heroImg}
+      />
     </div>
   );
 }
