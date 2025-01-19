@@ -14,17 +14,21 @@ function HeroText() {
         </p>
 
         <div className="flex gap-8 w-fit mx-auto md:mx-0">
-          <button className="bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
+          <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
             <a href="/"> Get Started For Free</a>
           </button>
-          <button className="bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
+          <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
             <a href="/"> Pricing</a>
           </button>
         </div>
       </div>
 
-      <div className="w-[25rem] mt-12 mx-auto md:w-[25rem] lg:w-[30rem]  md:mt-0">
-        <img src={heroImg} alt="heroImg" />
+      <div className=" mt-12 mx-auto md:mt-0">
+        <img
+          src={heroImg}
+          alt="heroImg"
+          className="w-[20rem] md:w-[25rem] lg:w-[30rem]"
+        />
       </div>
     </div>
   );

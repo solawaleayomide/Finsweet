@@ -12,7 +12,7 @@ function Logo() {
         10,000+ clients who are getting more replies
       </h2>
 
-      <div className="w-full mt-7 flex gap-5 md:gap-12 items-center justify-center">
+      <div className="w-full mt-7 grid grid-cols-3 md:flex gap-5 md:gap-12 items-center justify-center">
         <img
           src={logo1}
           alt="logo1"
