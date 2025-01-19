@@ -19,10 +19,10 @@ function Faq() {
               className="flex gap-8 border-b-2 mb-5"
               onClick={() => toggleAns(data.id)}
             >
-              <span className="font-bold text-[1rem]">{data.id}</span>
+              <span className="font-bold text-[1rem] -mt-1">{data.id}</span>
 
               <div>
-                <h2 className="font-semibold text-[1.2rem] mb-5 leading-none">
+                <h2 className="font-semibold text-[1rem] mb-5 leading-none">
                   {data.question}
                 </h2>
                 {activeId === data.id && (

@@ -6,6 +6,7 @@ import Image from "../sections/image";
 import Features from "../sections/Features";
 import Testimonial from "../sections/Testimonial";
 import Faqs from "../sections/Faqs";
+import Footer from "../sections/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Features />
       <Testimonial />
       <Faqs />
+      <Footer />
     </div>
   );
 }
