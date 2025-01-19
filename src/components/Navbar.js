@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,14 +31,14 @@ function Navbar() {
         <div className="px-[8%] md:p-0">
           <ul className="flex flex-col md:flex-row gap-4 p-4 md:p-0">
             <li>
-              <a href="/" className="hover:text-[#232ED1]">
+              <Link to="/" className="hover:text-[#232ED1]">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-[#232ED1]">
+              <Link to="/product" className="hover:text-[#232ED1]">
                 Product
-              </a>
+              </Link>
             </li>
             <li>
               <a href="/" className="hover:text-[#232ED1]">
