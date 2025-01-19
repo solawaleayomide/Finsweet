@@ -3,6 +3,7 @@ import Hero from "../sections/Hero";
 import Logo from "../sections/Logo";
 import Why from "../sections/Why";
 import Image from "../sections/image";
+import Features from "../sections/Features";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Logo />
       <Why />
       <Image />
+      <Features />
     </div>
   );
 }

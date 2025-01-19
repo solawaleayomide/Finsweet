@@ -9,7 +9,7 @@ function image() {
       </div>
 
       <div className="px-[10%] mb-5 -translate-y-[3rem] absolute right-0 md:px-0">
-        <div className="flex md:w-[30rem] bg-[#232ED1] py-6 px-10 mx-auto rounded-md md:w-[50rem] md:h-[8rem]">
+        <div className="flex md:w-[50rem] bg-[#232ED1] py-6 px-10 mx-auto rounded-md   md:h-[8rem]">
           <h2 className="leading-none mr-9 text-[#fff] text-[.9rem] font-semibold md:text-[1.5rem] md:my-auto">
             Keeps Your Team Happy
           </h2>
