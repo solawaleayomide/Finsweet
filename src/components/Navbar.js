@@ -41,9 +41,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-[#232ED1]">
+              <Link to="/pricing" className="hover:text-[#232ED1]">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li>
               <a href="/" className="hover:text-[#232ED1]">

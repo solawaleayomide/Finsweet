@@ -3,7 +3,7 @@ import Faq from "../components/Faq";
 
 function Faqs() {
   return (
-    <div className="px-[10%]">
+    <div className="px-[10%] mt-[6rem]">
       <Faq />
     </div>
   );
