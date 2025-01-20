@@ -2,7 +2,7 @@ import img1 from "../assets/Feature 3 Image.png";
 import img2 from "../assets/Feature 4 Image.png";
 import img3 from "../assets/Feature 5 Image.png";
 
-const features = [
+export const homeFeatures = [
   {
     id: 1,
     image: img1,
@@ -33,5 +33,3 @@ const features = [
     text4: "Learn more",
   },
 ];
-
-export default features;
