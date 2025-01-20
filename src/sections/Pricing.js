@@ -1,23 +1,42 @@
 import React from "react";
+import PricingCard from "../components/PricingCard";
 
 function Pricing() {
-  return (
-    <div className="px-[10%] mt-[10rem]">
-      <div>
-        <div className="text-center">
-          <h2 className="font-bold text-[1.8rem] md:text-[2.3rem] mb-[1rem]">
-            Pricing
-          </h2>
-          <p className="text-[#5B5B5B]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            vitae nunc vitae neque .
-          </p>
-        </div>
+  const pricingData = [
+    {
+      title: "Launch",
+      price: "19",
+      features: ["1GB of storage", "128 x 31", "50 tasks"],
+      buttonText: "Get Started",
+      highlight: false,
+    },
+    {
+      title: "Startup",
+      price: "49",
+      features: ["100GB of storage", "3 users", "500 tasks", "24/7 support"],
+      buttonText: "Get Started",
+      highlight: true,
+    },
+    {
+      title: "Growth",
+      price: "79",
+      features: [
+        "1000GB of storage",
+        "Unlimited users",
+        "Unlimited tasks",
+        "24/7 support",
+        "Priority",
+      ],
+      buttonText: "Get Started",
+      highlight: false,
+    },
+  ];
 
-        <div>
-          <h2></h2>
-        </div>
-      </div>
+  return (
+    <div className="flex flex-col md:flex-row gap-6">
+      {pricingData.map((plan, index) => (
+        <PricingCard key={index} data={plan} />
+      ))}
     </div>
   );
 }

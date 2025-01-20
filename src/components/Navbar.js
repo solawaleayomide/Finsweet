@@ -7,7 +7,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full py-[20px] px-[10%] md:px-[7%] flex items-center justify-between bg-white shadow-md">
+    <header className="fixed z-50 top-0 left-0 w-full py-[20px] px-[10%] md:px-[7%] flex items-center justify-between bg-white shadow-md">
       <a href="/" className="text-[1.5rem] font-bold md:text-[1.5rem]">
         Finsweet
       </a>

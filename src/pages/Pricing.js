@@ -4,11 +4,12 @@ import Priciing from "../sections/Pricing";
 import Faqs from "../sections/Faqs";
 import Testimonial from "../sections/Testimonial";
 import Footer from "../sections/Footer";
+import PricingHead from "../sections/PricingHead";
 
 function Pricing() {
   return (
     <div>
-      <Priciing />
+      <PricingHead />
       <Navbar />
       <Faqs />
       <Testimonial />
