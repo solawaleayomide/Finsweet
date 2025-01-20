@@ -8,7 +8,7 @@ import img5 from "../assets/Feature 5 Image.png";
 
 function Features() {
   return (
-    <div className="px-[10%]">
+    <div className="px-[10%] md:mb-[10rem]">
       <Feature
         image={img1}
         text1="Features"

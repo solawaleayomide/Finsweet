@@ -4,6 +4,7 @@ import HeroText from "../components/HeroText";
 import heroImg from "../assets/Hero Image (1).png";
 import Three from "../sections/Three";
 import Features2 from "../sections/Features2";
+import Image2 from "../sections/Image2";
 import Footer from "../sections/Footer";
 
 function Products() {
@@ -17,6 +18,7 @@ function Products() {
       />
       <Three />
       <Features2 />
+      <Image2 />
       <Footer />
     </div>
   );
