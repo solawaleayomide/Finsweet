@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
 import heroImg from "../assets/Hero Image (1).png";
 import Three from "../sections/Three";
+import Features2 from "../sections/Features2";
 
 function Products() {
   return (
@@ -14,6 +15,7 @@ function Products() {
         heroImg={heroImg}
       />
       <Three />
+      <Features2 />
     </div>
   );
 }
