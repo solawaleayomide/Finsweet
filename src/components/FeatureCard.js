@@ -3,7 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 function FeatureCard({ image, text1, text2, text3 }) {
   return (
-    <div className="md:flex even:flex-row-reverse">
+    <div className="md:flex even:flex-row-reverse mb-[7rem]">
       <div>
         <img src={image} className="w-[20rem] md:w-[50rem]" />
       </div>
