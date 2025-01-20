@@ -9,9 +9,9 @@ function Image2() {
           <img src={img1} alt="img1" />
         </div>
 
-        <div className="px-[10%] -translate-y-[3rem] md:-translate-y-[6rem] ">
+        <div className="px-[10%] -translate-y-[5rem] md:-translate-y-[6rem] ">
           <div className=" bg-[#F24C27] py-6 px-10 mx-auto rounded-md">
-            <h2 className="leading-none mb-[1rem] text-[#fff] text-[1.5rem] md:text-[2rem] md:mb-[1.8rem] text-center font-bold md:my-auto">
+            <h2 className="leading-none mb-[1rem] text-[#fff] text-[1rem] md:text-[2rem] md:mb-[1.8rem] text-center font-bold md:my-auto">
               You + Finsweet = Happy Customers
             </h2>
             <p className="text-[0.7rem] md:text-[1rem] text-center my-auto text-[#fff]">
