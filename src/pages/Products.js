@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
 import heroImg from "../assets/Hero Image (1).png";
@@ -8,6 +8,10 @@ import Image2 from "../sections/Image2";
 import Footer from "../sections/Footer";
 
 function Products() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Navbar />
