@@ -9,14 +9,16 @@ function HeroText({ heading, description, btn1Text, btn2Text, heroImg }) {
         </h2>
         <p className="text-[0.95rem] text-[#5B5B5B] mb-8">{description}</p>
 
-        <div className="flex gap-8 w-fit mx-auto md:mx-0">
-          <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
-            <a href="/"> {btn1Text}</a>
-          </button>
-          <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
-            <a href="/"> {btn2Text}</a>
-          </button>
-        </div>
+        {(btn1Text || btn2Text) && (
+          <div className="flex gap-8 w-fit mx-auto md:mx-0">
+            <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
+              <a href="/"> {btn1Text}</a>
+            </button>
+            <button className="text-[.9rem] bg-[#232ED1] text-white px-5 py-2 rounded-md hover:bg-[#1A1E9C]">
+              <a href="/"> {btn2Text}</a>
+            </button>
+          </div>
+        )}
       </div>
 
       <div className=" mt-12 mx-auto md:mt-0">

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import HeroText from "../components/HeroText";
 import heroImg from "../assets/Hero Image (1).png";
+import Three from "../sections/Three";
 
 function Products() {
   return (
@@ -12,6 +13,7 @@ function Products() {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae nunc vitae neque"
         heroImg={heroImg}
       />
+      <Three />
     </div>
   );
 }
