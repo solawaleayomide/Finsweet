@@ -51,9 +51,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-[#232ED1]">
+              <Link to="/blog" className="hover:text-[#232ED1]">
                 Blog
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

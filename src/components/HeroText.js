@@ -1,13 +1,28 @@
 import React from "react";
 
-function HeroText({ heading, description, btn1Text, btn2Text, heroImg }) {
+function HeroText({
+  heading,
+  description,
+  btn1Text,
+  btn2Text,
+  heroImg,
+  date,
+  learn,
+}) {
   return (
     <div className="mt-[10rem] px-[10%] md:px-[7%] md:flex">
       <div className="text-center md:text-start md:w-[50%] md:pr-10">
+        {date && (
+          <p className="text-[0.9rem] mb-4 text-[#232ED1] font-semibold">
+            {date}
+          </p>
+        )}
         <h2 className="font-bold text-[2rem] leading-none mb-8 md:text-[1.8rem] md:mb-5 lg:text-[3rem]">
           {heading}
         </h2>
         <p className="text-[0.95rem] text-[#5B5B5B] mb-8">{description}</p>
+
+        {learn && <p className="text-[0.9rem] font-semibold">{learn}</p>}
 
         {(btn1Text || btn2Text) && (
           <div className="flex gap-8 w-fit mx-auto md:mx-0">
