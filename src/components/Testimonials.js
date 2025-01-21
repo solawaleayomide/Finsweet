@@ -1,5 +1,5 @@
 import React from "react";
-import datas from "../components/Data2";
+import { testimonials } from "../data/Data2";
 
 function Testimonials() {
   return (
@@ -9,7 +9,7 @@ function Testimonials() {
       </h2>
 
       <div className="md:flex md:gap-10">
-        {datas.map((data) => {
+        {testimonials.map((data) => {
           return (
             <div className="mb-[2.5rem] bg-gradient-to-r from-[#B6BAFF33] to-[#232ED133] p-6 rounded-md">
               <div className="flex mb-5">

@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import HeroText from "../components/HeroText";
-import heroImg from "../assets/Hero Image.png";
+import Navbar from "../../../components/Navbar";
+import HeroText from "../../../components/HeroText";
+import heroImg from "../../../assets/Hero Image.png";
 
 function Hero() {
   return (

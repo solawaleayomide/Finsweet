@@ -46,9 +46,9 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <a href="/" className="hover:text-[#232ED1]">
+              <Link to="/about" className="hover:text-[#232ED1]">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
               <a href="/" className="hover:text-[#232ED1]">

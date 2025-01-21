@@ -1,5 +1,5 @@
 import React from "react";
-import PricingCard from "../components/PricingCard";
+import PricingCard from "../../../components/PricingCard";
 
 function Pricing() {
   const pricingData = [

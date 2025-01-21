@@ -1,4 +1,4 @@
-const faq = [
+export const faq = [
   {
     id: 1,
     question: "Maecenas efficitur scelerisque lorem?",
@@ -30,5 +30,3 @@ const faq = [
       "Nillam bibendum diam diam, maximus malesuada tortor volutpat sit amet. Curabitur volutpat feugiat tellus, sit amet faucibus massa vulputate lobortis. Vestibulum malesuada ex dolor,",
   },
 ];
-
-export default faq;

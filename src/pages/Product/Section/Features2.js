@@ -1,6 +1,6 @@
 import React from "react";
-import FeatureCard from "../components/FeatureCard";
-import { productFeatures } from "../components/Data4";
+import FeatureCard from "../../../components/FeatureCard";
+import { productFeatures } from "../../../data/Data4";
 
 function Features() {
   return (

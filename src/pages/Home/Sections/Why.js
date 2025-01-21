@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "../assets/Why Box 1.jpg";
-import img2 from "../assets/Why Box 2.jpg";
-import img3 from "../assets/Why Box 3.jpg";
-import img4 from "../assets/Why Box 4.jpg";
+import img1 from "../../../assets/Why Box 1.jpg";
+import img2 from "../../../assets/Why Box 2.jpg";
+import img3 from "../../../assets/Why Box 3.jpg";
+import img4 from "../../../assets/Why Box 4.jpg";
 
 function Why() {
   return (

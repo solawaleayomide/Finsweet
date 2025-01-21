@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import datas from "../components/Data3";
+import { faq } from "../data/Data3";
 
 function Faq() {
   const [activeId, setActiveId] = useState(null);
@@ -13,7 +13,7 @@ function Faq() {
       <h2 className="font-bold text-[1.8rem] mb-7">FAQ</h2>
 
       <div>
-        {datas.map((data) => {
+        {faq.map((data) => {
           return (
             <div
               className="flex gap-8 border-b-2 mb-5"

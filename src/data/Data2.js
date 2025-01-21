@@ -2,7 +2,7 @@ import img1 from "../assets/Image (2).png";
 import img2 from "../assets/Image (3).png";
 import img3 from "../assets/Image (4).png";
 
-const testimonials = [
+export const testimonials = [
   {
     id: 1,
     name: "Breanna Parker",
@@ -28,5 +28,3 @@ const testimonials = [
       "Curabitur sed tincidunt dui. Suspendisse dignissim consequat enim eu feugiat. Suspendisse vehicula sem non enim tristique, in rhoncus nulla.",
   },
 ];
-
-export default testimonials;
